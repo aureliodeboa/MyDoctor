@@ -16,7 +16,7 @@ struct NovoRemedioView: View {
     @State private var unidade: String = "mg"
     @State private var quantidade: String = ""
     @State private var estoque: String = ""
-    
+   
   
     func adicionarRemedio() {
         guard let quantidadeDouble = Double(quantidade) else { return }

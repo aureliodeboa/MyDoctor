@@ -6,22 +6,35 @@
 //
 
 import SwiftUI
-// AlarmeCard para exibir a hora e o nome do remédio
+
+
 struct AlarmeCard: View {
     var remedio: Remedio
     
     var body: some View {
-        HStack {
-            Text(remedio.hora)
-                .font(.title)
+        HStack(alignment: .top, spacing: 13){
+            VStack(alignment: .leading, spacing: 5){
+                Text(remedio.hora).font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/).bold()
+                HStack{
+                    Text("\(String(remedio.quantidade) ) \(String(remedio.unidade) ) ").font(.headline)
+                    
+                }
+            }
             Spacer()
-            Text(remedio.nome)
-                .font(.title2)
-        
-        }.padding(.horizontal,20)
-        .frame(minWidth: 100, maxWidth: 300, minHeight: 90, maxHeight: 100)
-        .background(Color(.lightGray))
-        .cornerRadius(10).scaledToFit()
+            VStack(alignment: .leading, spacing: 5 ){
+                
+                HStack{
+                    Text(remedio.nome).font(.headline).bold()
+                    Text("\(String(remedio.estoque) ) \(String(remedio.unidade) ) ").font(.headline)
+                    
+                    
+                }
+                Text(remedio.detalhe).font(.headline)
+            }
+        }.padding(.horizontal,22).frame(minWidth: 350,minHeight: 110).overlay(
+            RoundedRectangle(cornerRadius: 15)
+                .stroke(Color.black, lineWidth: 3)
+        )
     }
 }
 
