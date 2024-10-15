@@ -9,6 +9,7 @@ struct ScreenIdoso: View {
         VStack {
             Spacer()
 
+            Image(systemName: "brain.head.profile.fill").resizable().frame(width: 80, height: 80).foregroundColor(.white)
             // Nome do medicamento - Centralizado
             Text("Pregabalina")
                 .font(.largeTitle)
@@ -62,7 +63,7 @@ struct ScreenIdoso: View {
             Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity) // Para garantir centralização
-        .background(Color.pink)
+        .background(Color.cutielight)
         .edgesIgnoringSafeArea(.all)
     }
     
