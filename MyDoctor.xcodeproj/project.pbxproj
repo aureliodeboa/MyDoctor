@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C2454D622CB84DF800E4A0E9 /* ScreenIdoso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2454D612CB84DF800E4A0E9 /* ScreenIdoso.swift */; };
-		C29229462CBD825900F1672F /* UpdateRemedio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29229452CBD825900F1672F /* UpdateRemedio.swift */; };
 		C447504D2CB59F4B00A9AD0B /* MyDoctorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447504C2CB59F4B00A9AD0B /* MyDoctorApp.swift */; };
 		C447504F2CB59F4B00A9AD0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447504E2CB59F4B00A9AD0B /* ContentView.swift */; };
 		C44750512CB59F4D00A9AD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C44750502CB59F4D00A9AD0B /* Assets.xcassets */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		C2454D612CB84DF800E4A0E9 /* ScreenIdoso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenIdoso.swift; sourceTree = "<group>"; };
-		C29229452CBD825900F1672F /* UpdateRemedio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateRemedio.swift; sourceTree = "<group>"; };
 		C44750492CB59F4B00A9AD0B /* MyDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C447504C2CB59F4B00A9AD0B /* MyDoctorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDoctorApp.swift; sourceTree = "<group>"; };
 		C447504E2CB59F4B00A9AD0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +47,6 @@
 			children = (
 				C447507E2CB6EE2100A9AD0B /* Estoque.swift */,
 				C447505E2CB5AC5B00A9AD0B /* RegistrarRemedio.swift */,
-				C29229452CBD825900F1672F /* UpdateRemedio.swift */,
 				C447505C2CB59FD500A9AD0B /* Models.swift */,
 				C447505A2CB59F9F00A9AD0B /* Alarmes.swift */,
 				C2454D612CB84DF800E4A0E9 /* ScreenIdoso.swift */,
@@ -161,7 +158,6 @@
 				C447505F2CB5AC5B00A9AD0B /* RegistrarRemedio.swift in Sources */,
 				C447504D2CB59F4B00A9AD0B /* MyDoctorApp.swift in Sources */,
 				C447505B2CB59F9F00A9AD0B /* Alarmes.swift in Sources */,
-				C29229462CBD825900F1672F /* UpdateRemedio.swift in Sources */,
 				C447505D2CB59FD500A9AD0B /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

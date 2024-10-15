@@ -41,8 +41,9 @@ struct NovoRemedioView: View {
     }
     
     var body: some View {
+       
         Form {
-            Section(header: Text("Informações do Remédio")) {
+            Section(header: Text("Novo Remédio").bold().font(.title) ) {
                 TextField("Nome", text: $nome)
                 TextField("Hora (ex: 08:00)", text: $hora)
                 TextField("Detalhe", text: $detalhe)
@@ -64,14 +65,23 @@ struct NovoRemedioView: View {
                     Text("Adicionar Remédio")
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(Color.blue)
+                        .background(Color.pink)
                         .foregroundColor(.white)
                         .cornerRadius(8)
                 }
             }
         }
+        .scrollDisabled(true)
+        .scrollContentBackground(.hidden)
+        .padding(.top,40)
         .navigationTitle("Novo Remédio")
     }
+    
+
+    
 }
 
 
+#Preview {
+    NovoRemedioView()
+}
