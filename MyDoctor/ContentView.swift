@@ -154,14 +154,7 @@ struct NavBar: View {
     var body: some View {
         TabView {
             
-            ScreenIdoso()
-             .tabItem {
-                 Label(
-                     title: { Text("Tela acessivel") },
-
-                     icon: {  Image(systemName: "person.fill") }
-                 )
-             }
+        
          Alarmes().tabItem {
                    Label(
                        title: { Text("Alarmes") },

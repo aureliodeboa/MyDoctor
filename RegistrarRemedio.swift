@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct NovoRemedioView: View {
     @State private var nome: String = ""
     @State private var hora: String = ""
@@ -22,7 +21,7 @@ struct NovoRemedioView: View {
         guard let quantidadeDouble = Double(quantidade) else { return }
         guard let estoqueDouble = Double(estoque) else {return}
         let novoRemedio = Remedio(
-            id: UUID().hashValue,
+            id: carregarRemedios().count,
             nome: nome,
             hora: hora,
             detalhe: detalhe,
@@ -38,6 +37,7 @@ struct NovoRemedioView: View {
         hora = ""
         detalhe = ""
         quantidade = ""
+        estoque = ""
     }
     
     var body: some View {

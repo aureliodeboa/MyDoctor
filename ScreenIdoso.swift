@@ -4,21 +4,24 @@ struct ScreenIdoso: View {
     @State private var isHolding = false
     @State private var progress: CGFloat = 0.0
     @State private var timer: Timer?
-
+    
+    @Binding var remedio: String
+    @Binding var hora: String
+    @State var exibirScreen: Binding<Bool>;
+    
     var body: some View {
         VStack {
             Spacer()
 
-            Image(systemName: "brain.head.profile.fill").resizable().frame(width: 80, height: 80).foregroundColor(.white)
             // Nome do medicamento - Centralizado
-            Text("Pregabalina")
+            Text(remedio)
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
                 .multilineTextAlignment(.center)  // Centraliza o texto
 
             // Horário - Centralizado
-            Text("09:00h")
+            Text("\(hora)h")
                 .font(.title)
                 .foregroundColor(.white)
                 .padding(.bottom, 50)
@@ -52,18 +55,17 @@ struct ScreenIdoso: View {
                             }
                         },
                         perform: {
-                            // Ação ao completar o tempo de pressão
-                            print("Ação completada")
+                            exibirScreen.wrappedValue = false
                         }
                     )
             }
             .frame(width: 200, height: 200) // Tamanho ajustado para o botão
             .padding()
-
+                
             Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity) // Para garantir centralização
-        .background(Color.cutielight)
+        .background(Color.pink)
         .edgesIgnoringSafeArea(.all)
     }
     
@@ -88,6 +90,4 @@ struct ScreenIdoso: View {
     }
 }
 
-#Preview {
-    ScreenIdoso()
-}
+

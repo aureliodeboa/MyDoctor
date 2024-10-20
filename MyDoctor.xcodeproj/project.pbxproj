@@ -16,6 +16,7 @@
 		C447505D2CB59FD500A9AD0B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447505C2CB59FD500A9AD0B /* Models.swift */; };
 		C447505F2CB5AC5B00A9AD0B /* RegistrarRemedio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447505E2CB5AC5B00A9AD0B /* RegistrarRemedio.swift */; };
 		C447507F2CB6EE2100A9AD0B /* Estoque.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447507E2CB6EE2100A9AD0B /* Estoque.swift */; };
+		C4A1E0B12CC03A3600865374 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1E0B02CC03A3500865374 /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C447505C2CB59FD500A9AD0B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		C447505E2CB5AC5B00A9AD0B /* RegistrarRemedio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarRemedio.swift; sourceTree = "<group>"; };
 		C447507E2CB6EE2100A9AD0B /* Estoque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estoque.swift; sourceTree = "<group>"; };
+		C4A1E0B02CC03A3500865374 /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		C44750402CB59F4B00A9AD0B = {
 			isa = PBXGroup;
 			children = (
+				C4A1E0B02CC03A3500865374 /* Notification.swift */,
 				C447507E2CB6EE2100A9AD0B /* Estoque.swift */,
 				C447505E2CB5AC5B00A9AD0B /* RegistrarRemedio.swift */,
 				C447505C2CB59FD500A9AD0B /* Models.swift */,
@@ -156,6 +159,7 @@
 				C2454D622CB84DF800E4A0E9 /* ScreenIdoso.swift in Sources */,
 				C447507F2CB6EE2100A9AD0B /* Estoque.swift in Sources */,
 				C447505F2CB5AC5B00A9AD0B /* RegistrarRemedio.swift in Sources */,
+				C4A1E0B12CC03A3600865374 /* Notification.swift in Sources */,
 				C447504D2CB59F4B00A9AD0B /* MyDoctorApp.swift in Sources */,
 				C447505B2CB59F9F00A9AD0B /* Alarmes.swift in Sources */,
 				C447505D2CB59FD500A9AD0B /* Models.swift in Sources */,
@@ -292,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyDoctor/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Y4FQN8XA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyDoctor/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Y4FQN8XA5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
