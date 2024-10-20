@@ -22,8 +22,11 @@ O **MyDoctor** é um aplicativo focado no gerenciamento de medicamentos, desenvo
 - **ESP32**: Dispositivo responsável pela conexão do aplicativo ao gaveteiro inteligente, possibilitando o controle remoto do armazenamento de medicamentos.
 - **Arduino IDE**: Plataforma utilizada para programar o controle dos indicadores LED, que auxiliam no gerenciamento do armazenamento físico dos remédios.
 - **IBM Cloudant**: Banco de dados utilizado para armazenar informações de forma segura, garantindo a confidencialidade e integridade dos dados dos pacientes.
+
+ ![WhatsApp Image 2024-10-20 at 14 33 26_2a963742](https://github.com/user-attachments/assets/ddb1de0f-ec03-4ce8-a180-3d2cc9e4bb4e)
 ![WhatsApp Image 2024-10-20 at 14 33 20_4ac7db0d](https://github.com/user-attachments/assets/c2deb56e-ca6b-4997-8cb6-3ca7b60a32d6)
-![WhatsApp Image 2024-10-20 at 14 33 20_4ac7db0d](https://github.com/user-attachments/assets/e8720382-b9bd-44c5-ac42-7eb72c3e2df0)
+
+
 
 ## Funcionalidades
 - **Alarmes Inteligentes**: Sistema de notificações que lembra os usuários de tomarem seus medicamentos nos horários corretos.
@@ -43,8 +46,9 @@ O projeto tem como objetivo melhorar a qualidade de vida das pessoas, especialme
 - **RegistrarRemedio.swift**: Responsável pelo registro de novos medicamentos no sistema.
 - **UpdateRemedio.swift**: Realiza a atualização das informações dos medicamentos.
 - **ScreenIdoso.swift**: Tela principal voltada para a experiência do usuário idoso, garantindo simplicidade.
-- **backend-final-gaveta-update.json**: Contém o código para a integração e controle remoto das gavetas inteligentes.
-
+- **backend-final-gaveta-update.json**: Contém o código para colocar no node-red para controle remoto das gavetas inteligentes.
+- **GAVETAS.ino**: Contém o código para colocar no ESP32 .
+- 
 ### Pastas e Arquivos
 - **MyDoctor.xcodeproj**: Projeto Xcode para rodar o aplicativo.
 - **MyDoctor**: Contém os arquivos principais do aplicativo.
