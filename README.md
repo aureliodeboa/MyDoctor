@@ -3,15 +3,16 @@
 Este projeto foi desenvolvido como parte da iniciativa **Hackatruck**, promovida pelo Instituto Eldorado em parceria com a IBM. O objetivo é incentivar a criação de soluções tecnológicas que atendam às necessidades da sociedade.
 
 ## Descrição
-O **MyDoctor** é um aplicativo focado no gerenciamento de medicamentos, desenvolvido para facilitar a vida de pacientes, especialmente idosos, e de seus cuidadores. A solução integra notificações, organização de tratamentos e um sistema de controle remoto de gaveteiros inteligentes, proporcionando mais segurança e tranquilidade para o usuário e seus familiares [Apresentação](https://www.canva.com/design/DAGT2Nh2fGY/R9UVhrHaN2J_BhzED_x2sg/edit)
-.
+O **MyDoctor** é um aplicativo focado no gerenciamento de medicamentos, desenvolvido para facilitar a vida de pacientes, especialmente idosos, e de seus cuidadores. A solução integra notificações, organização de tratamentos e um sistema de controle remoto de gaveteiros inteligentes, proporcionando mais segurança e tranquilidade para o usuário e seus familiares. [Apresentação](https://www.canva.com/design/DAGT2Nh2fGY/R9UVhrHaN2J_BhzED_x2sg/edit).
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/d62cc895-750a-41b6-9426-0841e34b162b" controls="controls" style="max-width: 100%;">
+  </video>
+</div>
 
-https://github.com/user-attachments/assets/d62cc895-750a-41b6-9426-0841e34b162b
-
-
-![WhatsApp Image 2024-10-20 at 14 33 27_31ccd5bb](https://github.com/user-attachments/assets/10a601af-2e81-43eb-8659-6f6912f5aa6e)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/10a601af-2e81-43eb-8659-6f6912f5aa6e" alt="WhatsApp Image 2024-10-20 at 14 33 27" style="max-width: 100%;">
+</div>
 ## Equipe
 ![image](https://github.com/user-attachments/assets/ef92f20e-7b6a-41c8-a52e-509de41792e6)
 
